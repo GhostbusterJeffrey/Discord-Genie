@@ -1,3 +1,16 @@
+#
+#   For this bot to run, you need to create a new file in the same directory as the bot called ".env"
+#   Go to https://www.discord.dev, create an application, create a bot, copy the token into your .env file on a line that says
+#   TOKEN=Paste Token Here
+#
+#   For 24/7 Runtime, download keep_alive.py from https://github.com/GhostbusterJeffrey/Discord-Genie
+#   Upload main.py, keep_alive.py and .env to a new Python Repl (https://www.replit.com)
+#   You do need an account to use Replit
+#   After running with the keep_alive file installed, copy the URL from the web view window.
+#   Go to UptimeRobot (https://www.uptimerobot.com), click Create New Monitor, select HTTP, paste the URL from
+#   your Replit web view window, paste it into the URL of the UptimeRobot monitor, select your notification type
+#   and then click done.
+#
 import urllib.request
 import re
 import discord
