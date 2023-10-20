@@ -20,7 +20,7 @@ import os
 import requests
 from bs4 import BeautifulSoup as bs
 
-bot = Bot(command_prefix='?', intents=None)
+bot = Bot(command_prefix='?', intents=discord.Intents.all())
 bot.remove_command("help")
 
 def get_video(search_query):
